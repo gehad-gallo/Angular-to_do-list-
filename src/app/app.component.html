@@ -1,0 +1,11 @@
+
+<main>
+  <app-todo-input (todoAdded)="onTodoAdded($event)"></app-todo-input>
+  <!-- Ensure this matches the emitter name -->
+  <app-todo-list
+    [todos]="todos"
+    (todoDeleted)="onTodoDeleted($event)"
+    (todoToggled)="onTodoToggled($event)"
+  ></app-todo-list>
+</main>
+

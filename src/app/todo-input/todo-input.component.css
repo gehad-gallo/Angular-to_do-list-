@@ -1,0 +1,18 @@
+.container{
+  padding: 40px;
+  border: 1px solid lightgray;
+  background-color: lightgray;
+  margin-top: 2%;
+}
+
+form{
+  margin-bottom: 60px;
+}
+h1{
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+button{
+  float: right;
+}

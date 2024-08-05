@@ -1,0 +1,23 @@
+
+<div class="container">
+  <h1>ToDo List</h1>
+  <form class="form-inline">
+    <div class="form-group mb-2">
+      <input
+        type="text"
+        id="name"
+        [(ngModel)]="newTodoTitle"
+        class="form-control"
+        placeholder="Add something to todo list"
+        name="name"
+      />
+    </div>
+    <br />
+    <button
+      type="button"
+      class="btn btn-primary btn-lg"
+       (click)="addTodo()">
+      Add task
+    </button>
+  </form>
+</div>

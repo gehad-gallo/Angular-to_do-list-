@@ -1,0 +1,12 @@
+<app-header></app-header>
+
+<main>
+  <app-todo-input (todoAdded)="onTodoAdded($event)"></app-todo-input>
+  <app-todo-list
+    [todos]="todos"
+    (todoDeleted)="onTodoDeleted($event)"
+    (todoToggled)="onTodoToggled($event)"
+  ></app-todo-list>
+</main>
+
+<app-footer></app-footer>
